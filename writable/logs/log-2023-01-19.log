@@ -1,0 +1,398 @@
+INFO - 2023-01-19 03:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-01-19 03:25:56 --> mysqli_sql_exception: Table 'imageserver.slider' doesn't exist in D:\xampp\htdocs\imgserver\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\imgserver\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\imgserver\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\imgserver\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\imgserver\system\Database\BaseBuilder.php(1601): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\imgserver\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\imgserver\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+#6 D:\xampp\htdocs\imgserver\app\Models\Slider.php(49): CodeIgniter\BaseModel->findAll(3, 0)
+#7 D:\xampp\htdocs\imgserver\app\Controllers\Home.php(21): App\Models\Slider->getSlider(Array)
+#8 D:\xampp\htdocs\imgserver\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 D:\xampp\htdocs\imgserver\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\imgserver\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\imgserver\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-19 03:25:56 --> Table 'imageserver.slider' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1601): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `slider`
+WHERE `published_at` <= now()
+AND `expired_at` > now()
+AND `is_active` = :is_active:
+ LIMIT 3', [...], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 4 APPPATH\Models\Slider.php(49): CodeIgniter\BaseModel->findAll(3, 0)
+ 5 APPPATH\Controllers\Home.php(21): App\Models\Slider->getSlider([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 03:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-01-19 03:26:01 --> mysqli_sql_exception: Table 'imageserver.slider' doesn't exist in D:\xampp\htdocs\imgserver\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\imgserver\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\imgserver\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\imgserver\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\imgserver\system\Database\BaseBuilder.php(1601): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\imgserver\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\imgserver\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+#6 D:\xampp\htdocs\imgserver\app\Models\Slider.php(49): CodeIgniter\BaseModel->findAll(3, 0)
+#7 D:\xampp\htdocs\imgserver\app\Controllers\Home.php(21): App\Models\Slider->getSlider(Array)
+#8 D:\xampp\htdocs\imgserver\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 D:\xampp\htdocs\imgserver\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\imgserver\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\imgserver\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-19 03:26:01 --> Table 'imageserver.slider' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1601): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `slider`
+WHERE `published_at` <= now()
+AND `expired_at` > now()
+AND `is_active` = :is_active:
+ LIMIT 3', [...], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 4 APPPATH\Models\Slider.php(49): CodeIgniter\BaseModel->findAll(3, 0)
+ 5 APPPATH\Controllers\Home.php(21): App\Models\Slider->getSlider([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 03:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 03:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 03:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 03:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 03:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-01-19 07:27:42 --> mysqli_sql_exception: Table 'imageserver.slider' doesn't exist in D:\xampp\htdocs\imgserver\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\imgserver\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\imgserver\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\imgserver\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\imgserver\system\Database\BaseBuilder.php(1601): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\imgserver\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\imgserver\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+#6 D:\xampp\htdocs\imgserver\app\Models\Slider.php(49): CodeIgniter\BaseModel->findAll(3, 0)
+#7 D:\xampp\htdocs\imgserver\app\Controllers\Home.php(21): App\Models\Slider->getSlider(Array)
+#8 D:\xampp\htdocs\imgserver\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 D:\xampp\htdocs\imgserver\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\imgserver\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\imgserver\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-19 07:27:42 --> Table 'imageserver.slider' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1601): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `slider`
+WHERE `published_at` <= now()
+AND `expired_at` > now()
+AND `is_active` = :is_active:
+ LIMIT 3', [...], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 4 APPPATH\Models\Slider.php(49): CodeIgniter\BaseModel->findAll(3, 0)
+ 5 APPPATH\Controllers\Home.php(21): App\Models\Slider->getSlider([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:28:07 --> readfile(instalasi snort_4.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(instalasi snort_4.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 20)
+ 2 APPPATH\Controllers\Show.php(20): readfile('instalasi snort_4.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:29:30 --> readfile(instalasi snort_4.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(instalasi snort_4.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 20)
+ 2 APPPATH\Controllers\Show.php(20): readfile('instalasi snort_4.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('ROOTPATH\\public')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:29:34 --> The route for "show" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('show')
+ 2 APPPATH\Controllers\Upload.php(71): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:31:17 --> readfile(instalasi snort_4.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(instalasi snort_4.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 20)
+ 2 APPPATH\Controllers\Show.php(20): readfile('instalasi snort_4.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:43:12 --> readfile(canting.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(canting.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 21)
+ 2 APPPATH\Controllers\Show.php(21): readfile('canting.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('canting')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:43:25 --> readfile(canting.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(canting.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 21)
+ 2 APPPATH\Controllers\Show.php(21): readfile('canting.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('canting')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:45:10 --> readfile(canting.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(canting.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 21)
+ 2 APPPATH\Controllers\Show.php(21): readfile('canting.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('canting')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:45:40 --> readfile(canting.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(canting.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 21)
+ 2 APPPATH\Controllers\Show.php(21): readfile('canting.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('canting')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:45:41 --> readfile(canting.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(canting.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 21)
+ 2 APPPATH\Controllers\Show.php(21): readfile('canting.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('canting')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:45:42 --> readfile(canting.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(canting.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 21)
+ 2 APPPATH\Controllers\Show.php(21): readfile('canting.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('canting')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:45:54 --> readfile(canting.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(canting.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 21)
+ 2 APPPATH\Controllers\Show.php(21): readfile('canting.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('canting')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:45:56 --> readfile(canting.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Show.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(canting.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Show.php', 21)
+ 2 APPPATH\Controllers\Show.php(21): readfile('canting.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('canting')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:58:33 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 133.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\Upload.php(55): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 07:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 07:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 07:59:53 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$ROOTPATH
+in APPPATH\Controllers\Upload.php on line 55.
+ 1 APPPATH\Controllers\Upload.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\Files\\UploadedFile::$ROOTPATH', 'APPPATH\\Controllers\\Upload.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 08:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 08:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 08:01:08 --> The route for "show" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('show')
+ 2 APPPATH\Controllers\Upload.php(72): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 08:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 08:01:33 --> The route for "show" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('show')
+ 2 APPPATH\Controllers\Upload.php(72): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 08:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 08:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 08:08:26 --> The route for "show" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('show')
+ 2 APPPATH\Controllers\Upload.php(72): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 08:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 08:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 08:09:45 --> The route for "show" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('show')
+ 2 APPPATH\Controllers\Upload.php(72): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 08:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 08:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 08:12:06 --> The route for "show" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('show')
+ 2 APPPATH\Controllers\Upload.php(72): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 08:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 08:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 08:20:23 --> The route for "show" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('show')
+ 2 APPPATH\Controllers\Upload.php(72): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 08:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 08:29:24 --> The route for "show/(:any)" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('show/(:any)')
+ 2 APPPATH\Controllers\Upload.php(72): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Upload->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-19 08:53:49 --> syntax error, unexpected token "list", expecting identifier
+in APPPATH\Controllers\List.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\List.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\List')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\List')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\List', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 08:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 09:05:03 --> Too few arguments to function App\Models\Show::getNewest(), 0 passed in D:\xampp\htdocs\imgserver\app\Controllers\Tabel.php on line 12 and exactly 1 expected
+in APPPATH\Models\Show.php on line 43.
+ 1 APPPATH\Controllers\Tabel.php(12): App\Models\Show->getNewest()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Tabel->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 09:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 09:05:44 --> Too few arguments to function App\Models\Tabel::getNewest(), 0 passed in D:\xampp\htdocs\imgserver\app\Controllers\Tabel.php on line 12 and exactly 1 expected
+in APPPATH\Models\Tabel.php on line 44.
+ 1 APPPATH\Controllers\Tabel.php(12): App\Models\Tabel->getNewest()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Tabel->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tabel))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 09:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 09:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-19 10:38:02 --> readfile(http://localhost/imgserver/public/uploads/DSC_3382 A.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Controllers\Show.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(http://localhost/imgserver/public/uploads/DSC_3382 A.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'APPPATH\\Controllers\\Show.php', 22)
+ 2 APPPATH\Controllers\Show.php(22): readfile('http://localhost/imgserver/public/uploads/DSC_3382 A.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Show->index('DSC_3382 A.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Show))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-19 10:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-19 10:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

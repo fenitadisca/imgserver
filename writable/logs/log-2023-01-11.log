@@ -1,0 +1,390 @@
+CRITICAL - 2023-01-11 03:55:16 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 79.
+ 1 APPPATH\Controllers\BaseController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\BaseController.php', 79, [...])
+ 2 APPPATH\Controllers\BaseController.php(100): App\Controllers\BaseController->createFooter([...])
+ 3 APPPATH\Controllers\Home.php(19): App\Controllers\BaseController->pageBuilder([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 04:03:57 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/games/layout/content/body_blank.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/games/layout/content/body_blank.php')
+ 2 APPPATH\Controllers\BaseController.php(95): CodeIgniter\View\Parser->render('themes/games/layout/content/body_blank.php')
+ 3 APPPATH\Controllers\BaseController.php(107): App\Controllers\BaseController->createBody([...])
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 04:04:10 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/games/layout/content/body_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/games/layout/content/body_layout.php')
+ 2 APPPATH\Controllers\BaseController.php(98): CodeIgniter\View\Parser->render('themes/games/layout/content/body_layout.php')
+ 3 APPPATH\Controllers\BaseController.php(107): App\Controllers\BaseController->createBody([...])
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 04:04:11 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/games/layout/content/body_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/games/layout/content/body_layout.php')
+ 2 APPPATH\Controllers\BaseController.php(98): CodeIgniter\View\Parser->render('themes/games/layout/content/body_layout.php')
+ 3 APPPATH\Controllers\BaseController.php(107): App\Controllers\BaseController->createBody([...])
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 04:04:12 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/games/layout/content/body_layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/games/layout/content/body_layout.php')
+ 2 APPPATH\Controllers\BaseController.php(98): CodeIgniter\View\Parser->render('themes/games/layout/content/body_layout.php')
+ 3 APPPATH\Controllers\BaseController.php(107): App\Controllers\BaseController->createBody([...])
+ 4 APPPATH\Controllers\Home.php(18): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 04:24:48 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/games/layout/contens/Blog.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/games/layout/contens/Blog.php')
+ 2 APPPATH\Controllers\BaseController.php(92): CodeIgniter\View\Parser->render('themes/games/layout/contens/Blog.php')
+ 3 APPPATH\Controllers\BaseController.php(107): App\Controllers\BaseController->createBody([...])
+ 4 APPPATH\Controllers\Home.php(20): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 04:42:04 --> Cannot use object of type stdClass as array
+in APPPATH\Models\Blog.php on line 57.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\Blog->getBlog([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 04:51:16 --> Undefined index: link
+in APPPATH\Models\Blog.php on line 54.
+ 1 APPPATH\Models\Blog.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: link', 'APPPATH\\Models\\Blog.php', 54, [...])
+ 2 APPPATH\Controllers\Home.php(28): App\Models\Blog->getNewest([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 04:51:37 --> Undefined index: category
+in APPPATH\Models\Blog.php on line 57.
+ 1 APPPATH\Models\Blog.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: category', 'APPPATH\\Models\\Blog.php', 57, [...])
+ 2 APPPATH\Controllers\Home.php(28): App\Models\Blog->getNewest([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:13:02 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/cms/layout/menu/sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/cms/layout/menu/sidebar.php')
+ 2 APPPATH\Controllers\BaseController.php(84): CodeIgniter\View\Parser->render('themes/cms/layout/menu/sidebar.php')
+ 3 APPPATH\Controllers\BaseController.php(114): App\Controllers\BaseController->createFooter([...])
+ 4 ROOTPATH\Modules\Cms\Controllers\Home.php(23): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:13:31 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/cms/layout/commons/home_js.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/cms/layout/commons/home_js.php')
+ 2 APPPATH\Controllers\BaseController.php(82): CodeIgniter\View\Parser->render('themes/cms/layout/commons/home_js.php')
+ 3 APPPATH\Controllers\BaseController.php(112): App\Controllers\BaseController->createFooter([...])
+ 4 ROOTPATH\Modules\Cms\Controllers\Home.php(23): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:13:33 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/cms/layout/commons/home_js.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/cms/layout/commons/home_js.php')
+ 2 APPPATH\Controllers\BaseController.php(82): CodeIgniter\View\Parser->render('themes/cms/layout/commons/home_js.php')
+ 3 APPPATH\Controllers\BaseController.php(112): App\Controllers\BaseController->createFooter([...])
+ 4 ROOTPATH\Modules\Cms\Controllers\Home.php(23): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:13:33 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/cms/layout/commons/home_js.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/cms/layout/commons/home_js.php')
+ 2 APPPATH\Controllers\BaseController.php(82): CodeIgniter\View\Parser->render('themes/cms/layout/commons/home_js.php')
+ 3 APPPATH\Controllers\BaseController.php(112): App\Controllers\BaseController->createFooter([...])
+ 4 ROOTPATH\Modules\Cms\Controllers\Home.php(23): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:16:26 --> Undefined index: THEMES
+in APPPATH\Controllers\BaseController.php on line 111.
+ 1 APPPATH\Controllers\BaseController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: THEMES', 'APPPATH\\Controllers\\BaseController.php', 111, [...])
+ 2 APPPATH\Controllers\Home.php(41): App\Controllers\BaseController->pageBuilder([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:16:29 --> Undefined index: THEMES
+in APPPATH\Controllers\BaseController.php on line 111.
+ 1 APPPATH\Controllers\BaseController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: THEMES', 'APPPATH\\Controllers\\BaseController.php', 111, [...])
+ 2 APPPATH\Controllers\Home.php(41): App\Controllers\BaseController->pageBuilder([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:19:03 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/themes/games/layout/header/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/themes/games/layout/header/header.php')
+ 2 APPPATH\Controllers\BaseController.php(73): CodeIgniter\View\Parser->render('themes/themes/games/layout/header/header.php')
+ 3 APPPATH\Controllers\BaseController.php(118): App\Controllers\BaseController->createHeader([...])
+ 4 APPPATH\Controllers\Home.php(41): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:22:26 --> Undefined property: Modules\Cms\Controllers\Home::$adminThemesName
+in ROOTPATH\Modules\Cms\Controllers\Home.php on line 16.
+ 1 ROOTPATH\Modules\Cms\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Cms\\Controllers\\Home::$adminThemesName', 'ROOTPATH\\Modules\\Cms\\Controllers\\Home.php', 16, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:22:58 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/cms/layout/contents/body_blank.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/cms/layout/contents/body_blank.php')
+ 2 APPPATH\Controllers\BaseController.php(101): CodeIgniter\View\Parser->render('themes/cms/layout/contents/body_blank.php')
+ 3 APPPATH\Controllers\BaseController.php(121): App\Controllers\BaseController->createBody([...])
+ 4 ROOTPATH\Modules\Cms\Controllers\Home.php(24): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 08:23:26 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/cms/layout/contents/body_blank.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/cms/layout/contents/body_blank.php')
+ 2 APPPATH\Controllers\BaseController.php(101): CodeIgniter\View\Parser->render('themes/cms/layout/contents/body_blank.php')
+ 3 APPPATH\Controllers\BaseController.php(121): App\Controllers\BaseController->createBody([...])
+ 4 ROOTPATH\Modules\Cms\Controllers\Home.php(19): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 09:29:56 --> Allowed fields must be specified for model: "Modules\Cms\Models\BlogCms"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('Modules\\Cms\\Models\\BlogCms')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(728): CodeIgniter\BaseModel->insert([...], true)
+ 4 ROOTPATH\Modules\Cms\Models\BlogCms.php(89): CodeIgniter\Model->insert([...])
+ 5 ROOTPATH\Modules\Cms\Controllers\Blog.php(87): Modules\Cms\Models\BlogCms->setInsert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Blog->saveBlog()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 09:34:14 --> Undefined property: Modules\Cms\Controllers\Blog::$session
+in ROOTPATH\Modules\Cms\Controllers\Blog.php on line 61.
+ 1 ROOTPATH\Modules\Cms\Controllers\Blog.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Cms\\Controllers\\Blog::$session', 'ROOTPATH\\Modules\\Cms\\Controllers\\Blog.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Blog->form()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 09:34:15 --> Undefined property: Modules\Cms\Controllers\Blog::$session
+in ROOTPATH\Modules\Cms\Controllers\Blog.php on line 61.
+ 1 ROOTPATH\Modules\Cms\Controllers\Blog.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: Modules\\Cms\\Controllers\\Blog::$session', 'ROOTPATH\\Modules\\Cms\\Controllers\\Blog.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Blog->form()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 09:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-11 09:35:57 --> Trying to get property 'medium' of non-object
+in ROOTPATH\Modules\Cms\Models\BlogCms.php on line 61.
+ 1 ROOTPATH\Modules\Cms\Models\BlogCms.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'medium\' of non-object', 'ROOTPATH\\Modules\\Cms\\Models\\BlogCms.php', 61, [...])
+ 2 ROOTPATH\Modules\Cms\Controllers\Blog.php(36): Modules\Cms\Models\BlogCms->getBlog([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Blog->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 09:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-11 09:51:50 --> Call to undefined method Modules\Cms\Models\BlogCms::udpate
+in SYSTEMPATH\Model.php on line 840.
+ 1 ROOTPATH\Modules\Cms\Models\BlogCms.php(115): CodeIgniter\Model->__call('udpate', [...])
+ 2 ROOTPATH\Modules\Cms\Controllers\Blog.php(119): Modules\Cms\Models\BlogCms->setUpdate('14', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Blog->saveBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 09:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 09:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-11 10:02:29 --> Undefined index: link
+in ROOTPATH\Modules\Cms\Models\BlogCms.php on line 60.
+ 1 ROOTPATH\Modules\Cms\Models\BlogCms.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: link', 'ROOTPATH\\Modules\\Cms\\Models\\BlogCms.php', 60, [...])
+ 2 ROOTPATH\Modules\Cms\Controllers\Blog.php(38): Modules\Cms\Models\BlogCms->getblog([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Blog->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 10:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-11 10:02:57 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/cms/layout/list/blog_list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/cms/layout/list/blog_list.php')
+ 2 APPPATH\Controllers\BaseController.php(99): CodeIgniter\View\Parser->render('themes/cms/layout/list/blog_list.php')
+ 3 APPPATH\Controllers\BaseController.php(122): App\Controllers\BaseController->createBody([...])
+ 4 ROOTPATH\Modules\Cms\Controllers\Blog.php(48): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Blog->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 10:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-11 10:03:57 --> Invalid file: "D:\laragon\www\latih\minggu3b\app\Config/../Views\themes/cms/layout/form/blog_form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\Parser.php(119): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('APPPATH\\Config/../Views\\themes/cms/layout/form/blog_form.php')
+ 2 APPPATH\Controllers\BaseController.php(99): CodeIgniter\View\Parser->render('themes/cms/layout/form/blog_form.php')
+ 3 APPPATH\Controllers\BaseController.php(122): App\Controllers\BaseController->createBody([...])
+ 4 ROOTPATH\Modules\Cms\Controllers\Blog.php(104): App\Controllers\BaseController->pageBuilder([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Blog->form()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 10:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-11 10:05:32 --> Undefined index: link
+in ROOTPATH\Modules\Cms\Controllers\Blog.php on line 81.
+ 1 ROOTPATH\Modules\Cms\Controllers\Blog.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: link', 'ROOTPATH\\Modules\\Cms\\Controllers\\Blog.php', 81, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): Modules\Cms\Controllers\Blog->form('33851')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Modules\Cms\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 10:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-11 10:10:55 --> Call to undefined method App\Models\Blog::getBlog
+in SYSTEMPATH\Model.php on line 840.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Model->__call('getBlog', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 10:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-11 10:14:03 --> Call to undefined method App\Models\Blog::getSlider
+in SYSTEMPATH\Model.php on line 840.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Model->__call('getSlider', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 10:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-11 10:14:44 --> Trying to get property 'medium' of non-object
+in APPPATH\Models\Slider.php on line 57.
+ 1 APPPATH\Models\Slider.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'medium\' of non-object', 'APPPATH\\Models\\Slider.php', 57, [...])
+ 2 APPPATH\Controllers\Home.php(21): App\Models\Slider->getSlider([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-01-11 10:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-11 10:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
